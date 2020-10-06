@@ -12,7 +12,9 @@ var numbers = {
 
 //################## CREATE YOUR AVERAGE FUNCTION
 function calcAverage(num1, num2, num3, num4, num5) {
-    var total
+    var sum = num1 + num2 + num3 + num4 + num5;
+    var average = sum / 5;
+    console.log(average.toFixed(1));
 }
 
 
