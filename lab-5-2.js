@@ -1,0 +1,3 @@
+//#### LAB 5 - FUNCTIONS & OBJECTS ####
+//PART 2:  I OBJECT!
+alert("Connected");//COMMENT OUT AS SOON AS YOU KNOW YOU ARE CONNECTED!!!!
