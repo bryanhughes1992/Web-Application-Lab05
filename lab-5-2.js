@@ -6,11 +6,11 @@ var meObject = {
     dateOfBirth: "July 6th, 1992",
     heightCm: 201,
     weightLbs: 300,
-    greeting: `My name is ${meObject.name}, and I am ${meObject.heightCm}cm tall.`,
-    selfIntroduction: function() {
-        alert(this.greeting);
+    greeting: function() {
+        alert(`My name is ${meObject.name}, and I am ${meObject.heightCm}cm tall.`);
     }
 };
 
 console.log(meObject.dateOfBirth);
-// alert(`My name is ${meObject.name}, and I am ${meObject.heightCm}cm tall.`);
+//alert(`My name is ${meObject.name}, and I am ${meObject.heightCm}cm tall.`);
+meObject.greeting();
